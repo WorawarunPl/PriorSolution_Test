@@ -1,0 +1,2 @@
+How to Run File
+เปิด cmd หรือ powershell แล้วรันคำสั่ง runApp.bat หรือ ./runApp.bat 
