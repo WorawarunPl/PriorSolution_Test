@@ -57,19 +57,6 @@ public class PriorSolutionTest {
                     }
                 }
 
-                for (Map<String, Object> node : nodes) {
-                    boolean isSource = false;
-                    for (Map<String, Object> edge : edges) {
-                        if (node.get("id").equals(edge.get("source"))) {
-                            isSource = true;
-                            break;
-                        }
-                    }
-                    if (!isSource) {
-                        addressOut.add("''");
-                    }
-                }
-
                 System.out.println("\nNode = " + nodeTypes);
                 System.out.println("\naddressIn = " + addressIn);
                 System.out.println("\naddressOut = " + addressOut);
